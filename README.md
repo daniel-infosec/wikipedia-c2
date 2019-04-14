@@ -1,5 +1,7 @@
 # Wikipedia-C2
 
+[Wikipedia C2 Blog Post](https://dweezy-netsec.github.io/blog/wikipediac2/)
+
 This is a demo project to demonstrate Command and Control utilizing Wikipedia. After [Josh Abraham's](https://twitter.com/Jabra) demo of C2 utilizing Slack and ICMP, I thought I'd explore what other options in the internet's top sites could be used for C2. After reviewing [Wikipedia's API](https://en.wikipedia.org/w/api.php), I saw that there was a user option for [user-jsarbitraryKeyName](https://www.mediawiki.org/wiki/API:Options) that could be an "arbitrary value". I later found that it was a max length of 65535 characters, which is more than enough for C2.
 
 ## Getting Started
